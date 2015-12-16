@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+header {
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+input[type="text"] {
+	text-align: center;
+	display: block;
+	margin: 1rem auto;
+	width: 100%;
+	height: 3rem;
+	border: 1px solid #333;
+}
+
+input[type="submit"] {
+	padding: 0.6rem 1.5rem;
+	border: 1px solid #333;
+	background: transparent;
+}
+
+#search-results {
+	margin-top: 2rem;
+	text-align: center;
+}
